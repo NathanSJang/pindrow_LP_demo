@@ -1,0 +1,12 @@
+.st-container {
+    margin-top: 16.875rem;
+}
+.st-text-container {
+    font-size: 3.5rem;
+    line-height: 6.191rem;
+    @apply font-mont text-center text-white;
+}
+
+.st-text-gold {
+    @apply text-secondary-gold font-bold;
+}

@@ -1,0 +1,25 @@
+.nav-text {
+    line-height: 1.468rem;
+    font-size: 1.25rem;
+    letter-spacing: 0.055em;
+    mix-blend-mode: normal;
+    @apply text-white font-rale;
+}
+
+.nav-logo {
+    width: 1.813rem;
+    height: 2.875rem;
+}
+
+.nav-logo-text {
+    font-size: 3.12rem;
+    line-height: 3.688rem;
+    margin-left: 0.438rem;
+    @apply font-rale text-white;
+}
+
+.nav-container {
+    padding-top: 3.125rem;
+    margin-left: 2rem;
+    margin-right: 10.438rem;
+}

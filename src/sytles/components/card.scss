@@ -1,0 +1,6 @@
+.card {
+    width: 312px;
+    height: 350px;
+    background: linear-gradient(161.62deg, #E6E6E6 -11.07%, #FFFFFF 128.52%);
+    @apply rounded-card hover:shadow-card;
+  }

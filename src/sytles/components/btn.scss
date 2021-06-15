@@ -1,0 +1,36 @@
+
+// Button Contained
+.btn-contained-red {
+    @apply bg-primary text-white rounded w-btn-w h-btn-h shadow-contained font-rale font-bold text-btn-text tracking-btn;
+  }
+
+.btn-contained-gold {
+    @apply bg-secondary-gold text-white rounded w-btn-w h-btn-h shadow-contained font-rale font-bold text-btn-text tracking-btn;
+  }
+  
+.btn-contained-white {
+    @apply bg-white text-black rounded w-btn-w h-btn-h shadow-contained font-rale font-bold text-btn-text tracking-btn;
+  }
+
+.btn-contained-black {
+    @apply bg-black text-secondary-gold rounded w-btn-w h-btn-h shadow-contained font-rale font-bold text-btn-text tracking-btn;
+  }
+
+  // Button Outlined
+.btn-outlined-red {
+    box-sizing: border-box;
+    box-shadow: inset 0 4px 20px -10px rgba(255, 22, 22, 1), 0 4px 20px -10px rgba(255, 22, 22, 1);
+    @apply text-primary rounded w-btn-w h-btn-h font-rale font-bold text-btn-text tracking-btn border-2 border-primary;
+  }
+
+.btn-outlined-gold {
+    box-sizing: border-box;
+    box-shadow: inset 0 4px 20px -10px rgba(234, 194, 24, 1), 0 4px 20px -10px rgba(234, 194, 24, 1);
+    @apply text-secondary-gold rounded w-btn-w h-btn-h font-rale font-bold text-btn-text tracking-btn border-2 border-secondary-gold;
+  }
+  
+.btn-outlined-purple {
+    box-sizing: border-box;
+    box-shadow: inset 0 4px 20px -10px rgba(203, 22, 255, 1), 0 4px 20px -10px rgba(203, 22, 255, 1);
+    @apply text-secondary-purple rounded w-btn-w h-btn-h font-rale font-bold text-btn-text tracking-btn border-2 border-secondary-purple;
+  }

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Raleway:wght@400;700&display=swap');
+
+.mont-lt {
+  @apply font-mont font-light text-mont-lt;
+ }
+ 
+ .mont {
+   @apply font-mont text-mont-rg;
+ }
+ 
+ .mont-bd {
+   @apply font-mont font-bold text-mont-bd;
+ }
+ 
+ .rale {
+   @apply font-rale text-rale;
+ }
+ 
+ .title-mont {
+   @apply font-mont text-body-title-mont;
+ }
+ 
+ .body-mont {
+   @apply font-mont text-body-mont;
+ }
+ 
+ .body-rale {
+   @apply font-rale text-body-rale;
+ }

@@ -1,0 +1,49 @@
+.cp-title {
+    font-size: 3.063rem;
+    line-height: 3.75rem;
+    margin-top: 5.875rem;
+    @apply text-white text-center font-mont font-bold;
+}
+
+.cp-card {
+    width: 25.063rem;
+    height: 37.313rem;
+    border: 3px solid #EAC218;
+    box-sizing: border-box0;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-left: 2.375rem;
+    @apply flex flex-col justify-end;
+}
+
+.cp-card-title-container {
+    height: 6.063rem;
+    @apply bg-secondary-gold;
+}
+
+.cp-card-title { 
+    font-size: 1.563rem;
+    line-height: 2.688rem;
+    letter-spacing: .12em;
+    margin-top: 1.563rem;
+    margin-left: 1.688rem;
+    @apply font-mont font-bold text-white;
+}
+
+.cp-cards-container {
+    margin-top: 5.188rem;
+    @apply flex justify-center items-center;
+}
+
+.cp-before {
+    margin-right: 1.625rem;
+}
+
+.cp-next {
+    margin-left: 2.875rem;
+}
+
+.cp-card-img {
+    width: 100%;
+    height: 31.25rem;
+}

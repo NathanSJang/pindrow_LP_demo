@@ -1,0 +1,77 @@
+.jt-container {
+    width: 100%;
+    height: 54.625rem;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.77) 0%, rgba(0, 0, 0, 0.5) 59.37%, rgba(234, 194, 24, 0.77) 100%);
+    @apply flex flex-col justify-center items-center;
+}
+.jt-logo{
+    width: 4.688rem;
+    @apply fill-current text-primary;
+}
+
+.jt-text {
+    font-size: 4.063rem;
+    line-height: 4.938rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0px 4px 50px rgba(255, 229, 117, 0.5);
+    margin-top: 2.125rem;
+    @apply font-mont text-secondary-gold;
+}
+
+.jt-btn {
+    margin-top: 3.75rem;
+    box-sizing: border-box;
+    box-shadow: inset 0 4px 20px -10px rgba(255, 22, 22, 1), 0 4px 20px -10px rgba(255, 22, 22, 1);
+    @apply text-white rounded w-btn-w h-btn-h font-rale text-btn-text tracking-btn border-2 border-primary;
+}
+
+.jt-down {
+    margin-top: 5.875rem;
+}
+
+.jt-text::before {
+    content: "Exclusive releases";
+    font-size: 1.875rem;
+    font-weight: normal;
+    line-height: 2.313rem;
+    color: rgba(255, 255, 255, 0.2);
+    text-shadow: 0px 4px 50px rgba(0, 0, 0, 0.5);
+    margin-right: 9.313rem;
+    margin-left: 12.5rem;
+    @apply font-mont;
+}
+
+.jt-text::after {
+    content: "Leak Protection";
+    font-size: 1.875rem;
+    font-weight: normal;
+    line-height: 2.313rem;
+    color: rgba(255, 255, 255, 0.2);
+    text-shadow: 0px 4px 50px rgba(0, 0, 0, 0.5);
+    margin-left: 10.563rem;
+    @apply font-mont;
+}
+
+.jt-text-container {
+    width: 100%;
+}
+
+.jt-text-container::before {
+    content: "User Verifi";
+    font-size: 1.875rem;
+    line-height: 2.313rem;
+    color: rgba(255, 255, 255, 0.2);
+    text-shadow: 0px 4px 50px rgba(0, 0, 0, 0.5);
+    float: right;
+    margin-top: 4.25rem;
+    margin-left: 3.125rem;
+    @apply font-mont;
+}
+
+.jt-stop {
+    position: absolute;
+    left: 97.75rem;
+    top: 45.375rem;
+}
+
