@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './Navbar';
+import Navbar from '../comp/Navbar';
 import { ReactComponent as Logo } from '../public/icon_white.svg';
 import { ReactComponent as Down } from '../public/icon_down.svg';
 import { ReactComponent as Stop } from '../public/icon_stop.svg';

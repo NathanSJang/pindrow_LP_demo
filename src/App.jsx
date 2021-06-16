@@ -1,4 +1,4 @@
-import Jumbotrom from './comp/Jumbotron';
+import Jumbotron from './page/Jumbotron';
 import CreatorsAndProviders from './page/CreatorsAndProviders';
 import SectionText from './page/SectionText';
 import AllInOne from './page/AllInOne';
@@ -9,7 +9,7 @@ import Footer from './comp/Footer';
 function App() {
   return (
     <div className="app">
-       <Jumbotrom />
+       <Jumbotron />
        <CreatorsAndProviders />
        <SectionText />
        <AllInOne />
